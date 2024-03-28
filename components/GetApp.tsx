@@ -1,7 +1,11 @@
 import React from "react";
 
 const GetApp = () => {
-	return <div>GetApp</div>;
+	return (
+		<section className="flexcenter w-full flex-col pb-[100px]">
+
+		</section>
+	);
 };
 
 export default GetApp;
