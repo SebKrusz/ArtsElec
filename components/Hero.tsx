@@ -36,6 +36,7 @@ const Hero = () => {
 					</div>
 					<p className="bold-16 lg:bold-20 text-blue-70">
 						199k
+						{/*TODO: Lets add a link to reviews here */}
 						<span className="regular-16 lg:regular-20 ml-1 underline">
 							Great Reviews
 						</span>
