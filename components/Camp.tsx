@@ -78,11 +78,13 @@ const Camp = () => {
 					<h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
 						<strong>Feeling Lost</strong> And Not Knowing The Way?
 					</h2>
-					<p className="regular-14 xl:regular-16 mt-5 text-white">
-						Starting from the anxiety of the climbers when visiting
-						a new climbing location, the possibility of getting lost
-						is very large. That's why we are here for those of you
-						who want to start an adventure
+					<p className="regular-16 xl:regular-16 mt-5 text-white">
+						Starting from the anxiety of getting an estimate when
+						you're thinking about starting a new project, the
+						possibility of getting lost is very large.
+					</p>
+					<p className="regular-16 xl:regular-16 mt-5 text-white">
+						That's why we are here.
 					</p>
 					<Image
 						src="/quote.svg"

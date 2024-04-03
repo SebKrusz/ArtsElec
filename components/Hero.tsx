@@ -8,18 +8,21 @@ const Hero = () => {
 
 			<div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
 				<Image
-					src="/camp.svg"
+					src="/pliers.svg"
 					alt="camp"
 					width={50}
 					height={50}
 					className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
 				/>
-				<h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
+				<h1 className="bold-52 lg:bold-88">ArtsElec</h1>
 				<p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-					We want to be on each of your journeys seeking the
-					satisfaction of seeing the incorruptible beauty of nature.
-					We can help you on an adventure around the world in just one
-					app
+					Serving electrical installations and performing Douglas
+					controls work are key. This involves routine maintenance,
+					troubleshooting, and system upgrades to meet safety
+					standards and enhance operational efficiency. We focus on
+					keeping electrical and lighting systems reliable and
+					energy-efficient, requiring strong technical knowledge and a
+					commitment to safety and quality.
 				</p>
 
 				<div className="my-11 flex flex-wrap gap-5">
@@ -38,9 +41,9 @@ const Hero = () => {
 					</div>
 
 					<p className="bold-16 lg:bold-20 text-blue-70">
-						198k
+						100's
 						<span className="regular-16 lg:regular-20 ml-1">
-							Excellent Reviews
+							of satisfied customers
 						</span>
 					</p>
 				</div>
@@ -48,7 +51,7 @@ const Hero = () => {
 				<div className="flex flex-col w-full gap-3 sm:flex-row">
 					<Button
 						type="button"
-						title="Download App"
+						title="Testimonials"
 						variant="btn_green"
 					/>
 					<Button
@@ -65,28 +68,22 @@ const Hero = () => {
 					<div className="flex flex-col">
 						<div className="flexBetween">
 							<p className="regular-16 text-gray-20">Location</p>
-							<Image
-								src="/close.svg"
-								alt="close"
-								width={24}
-								height={24}
-							/>
 						</div>
-						<p className="bold-20 text-white">Aguas Calientes</p>
+						<p className="bold-20 text-white">Lower Mainland</p>
 					</div>
 
 					<div className="flexBetween">
 						<div className="flex flex-col">
 							<p className="regular-16 block text-gray-20">
-								Distance
+								Available
 							</p>
-							<p className="bold-20 text-white">173.28 mi</p>
+							<p className="bold-20 text-white">Mon - Sat</p>
 						</div>
 						<div className="flex flex-col">
 							<p className="regular-16 block text-gray-20">
-								Elevation
+								Hours
 							</p>
-							<p className="bold-20 text-white">2.040 km</p>
+							<p className="bold-20 text-white">7AM-4PM</p>
 						</div>
 					</div>
 				</div>

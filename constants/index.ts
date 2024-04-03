@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
 	{ href: "/", key: "home", label: "Home" },
-	{ href: "/", key: "how_hilink_work", label: "How Hilink Work?" },
-	{ href: "/", key: "services", label: "Services" },
-	{ href: "/", key: "pricing ", label: "Pricing " },
-	{ href: "/", key: "contact_us", label: "Contact Us" },
+	{ href: "/projects", key: "how_hilink_work", label: "Projects" },
+	{ href: "/services", key: "services", label: "Services" },
+	{ href: "/pricing", key: "pricing ", label: "Pricing " },
+	{ href: "/contact", key: "contact_us", label: "Contact Us" },
 ];
 
 // CAMP SECTION
@@ -69,8 +69,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
 	title: "Contact Us",
 	links: [
-		{ label: "Admin Officer", value: "123-456-7890" },
-		{ label: "Email Officer", value: "hilink@akinthil.com" },
+		{ label: "Artur Kruszewski", value: "604-828-0543" },
+		{ label: "Email Address", value: "art.kociamber@gmail.com" },
 	],
 };
 

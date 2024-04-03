@@ -9,10 +9,15 @@ const Footer = () => {
 			<div className="padding-container max-container flex w-full flex-col gap-14">
 				<div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
 					<Link href="/" className="mb-10">
-						<Image src="hilink-logo.svg" alt="logo" width={74} height={29} />
+						<Image
+							src="artselec.svg"
+							alt="logo"
+							width={74}
+							height={29}
+						/>
 					</Link>
 				</div>
-				<div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
+				<div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
 					{FOOTER_LINKS.map((columns) => (
 						<FooterColumn title={columns.title}>
 							<ul className="regular-14 flex flex-col gap-4 text-gray-30">
@@ -30,8 +35,7 @@ const Footer = () => {
 								<Link
 									href="/"
 									key={link.label}
-									className="flex gap-4 md:flex-col lg:flex-row"
-								>
+									className="flex gap-4 md:flex-col lg:flex-row">
 									<p className="whitespace-nowrap">
 										{link.label}:
 									</p>
@@ -47,7 +51,12 @@ const Footer = () => {
 							<ul className="regular-14 flex gap-4 text-gray-30">
 								{SOCIALS.links.map((link) => (
 									<Link href="/" key={link}>
-										<Image src={link} alt="logo" width={24} height={24} />
+										<Image
+											src={link}
+											alt="logo"
+											width={24}
+											height={24}
+										/>
 									</Link>
 								))}
 							</ul>
@@ -55,7 +64,9 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="broder bg-gray-20" />
-				<p className="regular-14 w-full text-center text-gray-30">2023 Hilink | All rights reserved</p>
+				<p className="regular-14 w-full text-center text-gray-30">
+					2024 ArtsElec | All rights reserved
+				</p>
 			</div>
 		</footer>
 	);
@@ -64,14 +75,14 @@ const Footer = () => {
 type FooterColumnProps = {
 	title: string;
 	children: React.ReactNode;
-}
+};
 
-const FooterColumn = ({ title, children } :FooterColumnProps) => {
+const FooterColumn = ({ title, children }: FooterColumnProps) => {
 	return (
 		<div className="flex flex-col gap-5">
 			<h4 className="bold-18 whitespace-nowrap">{title}</h4>
 			{children}
 		</div>
-	)
-}
+	);
+};
 export default Footer;
