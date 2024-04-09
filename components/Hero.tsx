@@ -52,12 +52,11 @@ const Hero = () => {
 					<Button
 						type="button"
 						title="Testimonials"
-						variant="btn_green"
+						variant="btn_blue"
 					/>
 					<Button
 						type="button"
 						title="How we work?"
-						icon="/play.svg"
 						variant="btn_white_text"
 					/>
 				</div>
